@@ -455,3 +455,14 @@ body::before {
         transition-duration: 0.01ms !important;
     }
 }
+
+.About {
+    width: min(1000px, 100% - 40px);
+    margin: 0 auto;
+    transition:all 0.3s ease;
+}
+.About:hover {
+    transform: translateY(-4px);
+    border-color: rgba(0, 183, 255, 0.6);
+    box-shadow: 0 12px 40px rgba(0, 102, 255, 0.1);
+}
